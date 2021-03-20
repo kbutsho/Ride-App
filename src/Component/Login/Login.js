@@ -5,6 +5,7 @@ import { useContext, useState } from 'react';
 import { UserContext } from "../../App";
 import { useHistory, useLocation } from "react-router";
 import './Login.css';
+import iconImg from '../images/google-icon-png-1.png';
 
 
 if (!firebase.apps.length) {
@@ -13,9 +14,6 @@ if (!firebase.apps.length) {
 const provider = new firebase.auth.GoogleAuthProvider();
 
 function Login() {
-
-
-
     const [newUser, setNewUser] = useState(false);
     const [user, setUser] = useState({
         isSignIn: false,
@@ -179,7 +177,7 @@ function Login() {
             <p className="text-center">or</p>
             {
                 user.isSignIn ? <button className="btn btn-primary" onClick={handelSignOut}>Sign out</button> :
-                    <button className="btn btn-danger w-100 mb-2" onClick={handelGoogleSignIn}>Sign In With Google</button>
+                    <button className="btn btn-danger w-100 mb-2 googleBtn" onClick={handelGoogleSignIn}><img src={iconImg} className="mr-5" alt=""/> Sign In With Google</button>
             }
         </div>
     );
