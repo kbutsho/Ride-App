@@ -10,8 +10,8 @@ const RideCard = (props) => {
     }
     const { RideName, image } = props.ride;
     return (
-        <div className=" mx-auto" onClick={() => handelClick(RideName)}>
-            <div className="col-lg-3 col-md-4 col-sm-6 my-5 col-12 text-center">
+        <div className=" mx-auto">
+            <div className="col-lg-3 col-md-4 col-sm-6 my-5 col-12 text-center" onClick={() => handelClick(RideName)}>
                 <div className="card-area">
                     <img src={image} className="mt-5" alt="" />
                     <h3>{RideName}</h3>
