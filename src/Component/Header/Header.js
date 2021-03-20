@@ -15,7 +15,7 @@ const Header = () => {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav ml-auto font-weight-bold">
-                        <Link className="nav-link px-4 text-danger" to="/home">Home</Link>
+                        <Link className="nav-link px-4 text-danger" to="/home">Hello</Link>
                         <Link className="nav-link px-4 text-danger" to="/destination">Destination</Link>
                         <Link className="nav-link px-4 text-danger" to="/home">Blog</Link>
                         <Link className="nav-link px-4 text-danger" to="/home">Contact</Link>
