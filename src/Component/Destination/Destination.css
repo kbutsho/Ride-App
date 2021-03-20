@@ -1,3 +1,29 @@
 .details-area img{
- width: 50%;
+ width: 30%;
+ text-align: center;
 }
+.details-area{
+    background-color:blue;
+    border-radius: 10px;
+}
+.fromArea{
+    background-color: cyan;
+    padding: 15px;
+    border-radius: 10px;
+}
+.rideName{
+    border-radius: 10px;  
+}
+.from-to{
+    border-radius: 10px; 
+} 
+.dynamicImg-area{
+    border-radius: 10px;
+    background-color: blueviolet;
+}
+.ride{
+    background-color: aqua;
+    padding: 10px 100px; 
+    margin: 10px 0;
+    border-radius: 10px;
+ }
