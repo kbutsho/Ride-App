@@ -1,0 +1,12 @@
+.card-area{
+    min-height: 250px;
+    min-width: 200px;
+    border-radius: 0px 35px 0 35px;
+    box-shadow: 5px 5px 10px  black;
+    background-color: white;
+    margin-top: 100px;
+}
+.card-area img {
+    width: 150px;
+    height: 150px
+}

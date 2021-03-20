@@ -1,0 +1,24 @@
+
+[
+    {
+        "id": 1,
+        "RideName": "BIKE",
+        
+        "image": "https://image.freepik.com/free-vector/sport-blue-motorbike-rider-speeding-street_7496-200.jpg" 
+    },
+    {
+        "id": 2,
+        "RideName": "CAR",
+        "image":"https://image.freepik.com/free-vector/modern-blue-urban-adventure-suv-vehicle-illustration_1344-205.jpg"
+    },
+    {
+        "id": 3,
+        "RideName": "BUS",
+        "image": "https://static.vecteezy.com/system/resources/thumbnails/000/494/877/small/big_tour_bus_02.jpg"
+    },
+    {
+        "id" : 4,
+        "RideName" : "TRAIN",
+        "image": "https://freevector-images.s3.amazonaws.com/uploads/vector/preview/36550/36550.png"
+    }
+]
