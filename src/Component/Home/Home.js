@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import './Home.css';
 import Ride from '../FakeData/FakeData.json';
 import RideCard from '../RideCard/RideCard';
-import Destination from '../Destination/Destination';
 
 const Home = () => {
     const [ride, setRide] = useState([]);
