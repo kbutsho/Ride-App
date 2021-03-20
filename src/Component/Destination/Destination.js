@@ -5,6 +5,7 @@ import bike from '../images/Frame.png';
 import car from '../images/Frame-2.png';
 import train from '../images/Group.png';
 import bus from '../images/Frame-1.png';
+import './Destination.css';
 
 const Destination = (props) => {
 
@@ -41,38 +42,36 @@ const Destination = (props) => {
 
 
     return (
-        <div>
-            <h3>this is destination route</h3>
-            <h3>Selected Ride : {ride.RideName}</h3>
+        <div className="row">
+            <div className="col-md-4 details-area">
+                <h3>this is destination route</h3>
+                <h3>Selected Ride : {ride.RideName}</h3>
 
 
 
-            <form onSubmit="">
-                <input type="text" onBlur={handelChangeFrom} name="From" placeholder="Dhaka" required />
-                <br />
-                <input type="text" onBlur={handelChangeTo} name="To" placeholder="Khulna" required />
-                <br />
-                <input type="submit" value="Search" onClick={handelSearch} />
-            </form>
+                <form onSubmit="">
+                    <input type="text" onBlur={handelChangeFrom} name="From" placeholder="Dhaka" required />
+                    <br />
+                    <input type="text" onBlur={handelChangeTo} name="To" placeholder="Khulna" required />
+                    <br />
+                    <input type="submit" value="Search" onClick={handelSearch} />
+                </form>
 
-            <p>From : {From}</p>
-            <p>To : {To}</p>
-            {
-                setGender
-            }
-            {
-                setGender
-            }
-            {
-                setGender
-            }
-
-
-
-
-
-
-
+                <p>From : {From}</p>
+                <p>To : {To}</p>
+                {
+                    setGender
+                }
+                {
+                    setGender
+                }
+                {
+                    setGender
+                }
+            </div>
+            <div className="col-md-8">
+                <h1>hello</h1>
+            </div>
         </div>
     );
 };
