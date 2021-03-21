@@ -21,10 +21,10 @@ const Header = () => {
                         <Link className="nav-link px-4 text-danger" to="/home">Contact</Link>
                     </div>
                     {
-                        loggedInUser.name ?
+                        loggedInUser.email ?
                             <div className="d-flex ">
                                 <div> <button className="mx-4 btn btn-danger " onClick={() => setLoggedInUser({})}>Log Out</button></div>
-                                <div className="rounded text-white bg-primary p-2">User: {loggedInUser.name}</div>
+                                <div className="rounded text-white bg-primary p-2">User : {loggedInUser.email}</div>
                             </div> :
                             <Link className="nav-link px-4 font-weight-bold btn btn-primary" to="/login">Login</Link>
                     }
