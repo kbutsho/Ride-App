@@ -3,22 +3,29 @@
     {
         "id": 1,
         "RideName": "BIKE",
-        
+        "Price" : "Fare : $50",
+        "number": "2 BIKE",
         "image": "https://image.freepik.com/free-vector/sport-blue-motorbike-rider-speeding-street_7496-200.jpg" 
     },
     {
         "id": 2,
         "RideName": "CAR",
+        "Price" : "Fare : $80",
+        "number": "3 CAR",
         "image":"https://image.freepik.com/free-vector/modern-blue-urban-adventure-suv-vehicle-illustration_1344-205.jpg"
     },
     {
         "id": 3,
         "RideName": "BUS",
+        "Price" : "Fare : $20",
+        "number": "4 BUS",
         "image": "https://static.vecteezy.com/system/resources/thumbnails/000/494/877/small/big_tour_bus_02.jpg"
     },
     {
         "id" : 4,
         "RideName" : "TRAIN",
+        "Price" : "Fare : $40",
+        "number": "5 TRAIN",
         "image": "https://freevector-images.s3.amazonaws.com/uploads/vector/preview/36550/36550.png"
     }
 ]

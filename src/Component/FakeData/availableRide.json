@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "RideName": "BIKE",
+        "Price" : "$67",
+        "image": "https://image.freepik.com/free-vector/sport-blue-motorbike-rider-speeding-street_7496-200.jpg" 
+    },
+    {
+        "id": 2,
+        "RideName": "BIKE",
+        "Price" : "$67",
+        "image": "https://image.freepik.com/free-vector/sport-blue-motorbike-rider-speeding-street_7496-200.jpg" 
+    },
+    {
+        "id": 3,
+        "RideName": "BIKE",
+        "Price" : "$67",
+        "image": "https://image.freepik.com/free-vector/sport-blue-motorbike-rider-speeding-street_7496-200.jpg" 
+    },
+    {
+        "id": 4,
+        "RideName": "CAR",
+        "Price" : "$67",
+        "image":"https://image.freepik.com/free-vector/modern-blue-urban-adventure-suv-vehicle-illustration_1344-205.jpg"
+    },
+    {
+        "id": 5,
+        "RideName": "CAR",
+        "Price" : "$67",
+        "image":"https://image.freepik.com/free-vector/modern-blue-urban-adventure-suv-vehicle-illustration_1344-205.jpg"
+    },
+    {
+        "id": 6,
+        "RideName": "CAR",
+        "Price" : "$67",
+        "image":"https://image.freepik.com/free-vector/modern-blue-urban-adventure-suv-vehicle-illustration_1344-205.jpg"
+    },
+    {
+        "id": 7,
+        "RideName": "BUS",
+        "Price" : "$67",
+        "image": "https://static.vecteezy.com/system/resources/thumbnails/000/494/877/small/big_tour_bus_02.jpg"
+    },
+    {
+        "id": 8,
+        "RideName": "BUS",
+        "Price" : "$67",
+        "image": "https://static.vecteezy.com/system/resources/thumbnails/000/494/877/small/big_tour_bus_02.jpg"
+    },
+    {
+        "id": 9,
+        "RideName": "BUS",
+        "Price" : "$67",
+        "image": "https://static.vecteezy.com/system/resources/thumbnails/000/494/877/small/big_tour_bus_02.jpg"
+    },
+    {
+        "id" : 10,
+        "RideName" : "TRAIN",
+        "Price" : "$67",
+        "image": "https://freevector-images.s3.amazonaws.com/uploads/vector/preview/36550/36550.png"
+    },
+    {
+        "id" : 11,
+        "RideName" : "TRAIN",
+        "Price" : "$67",
+        "image": "https://freevector-images.s3.amazonaws.com/uploads/vector/preview/36550/36550.png"
+    },
+    {
+        "id" : 12,
+        "RideName" : "TRAIN",
+        "Price" : "$67",
+        "image": "https://freevector-images.s3.amazonaws.com/uploads/vector/preview/36550/36550.png"
+    }
+]

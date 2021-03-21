@@ -1,8 +1,7 @@
 .login-area{
     width: 450px;
     min-height: 70vh;
-    border: 1px solid black;
-    margin: 50px auto;
+    margin : 40px auto;
     padding: 15px 50px;
     background-color: aqua;
     border-radius: 35px 0 35px 0;
@@ -11,8 +10,7 @@
 @media all and (max-width: 568px){
     .login-area{
         width: 360px;
-        min-height: 80vh;
-        
+        min-height: 80vh;   
     }
 }
 .hr{

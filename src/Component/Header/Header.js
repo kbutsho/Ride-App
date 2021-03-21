@@ -15,7 +15,7 @@ const Header = () => {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav ml-auto font-weight-bold">
-                        <Link className="nav-link px-4 text-danger" to="/home">Hello</Link>
+                        <Link className="nav-link px-4 text-danger" to="/home">Home</Link>
                         <Link className="nav-link px-4 text-danger" to="/destination">Destination</Link>
                         <Link className="nav-link px-4 text-danger" to="/home">Blog</Link>
                         <Link className="nav-link px-4 text-danger" to="/home">Contact</Link>
@@ -24,9 +24,9 @@ const Header = () => {
                         loggedInUser.email ?
                             <div className="d-flex ">
                                 <div> <button className="mx-4 btn btn-danger " onClick={() => setLoggedInUser({})}>Log Out</button></div>
-                                <div className="text-danger mt-2">User: {loggedInUser.email}</div>
+                                <div className="rounded text-white bg-primary p-2">User: {loggedInUser.name}</div>
                             </div> :
-                            <Link className="nav-link px-4 font-weight-bold" to="/login">Login</Link>
+                            <Link className="nav-link px-4 font-weight-bold btn btn-primary" to="/login">Login</Link>
                     }
 
                 </div>
