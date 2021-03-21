@@ -17,8 +17,8 @@ const Header = () => {
                     <div className="navbar-nav ml-auto font-weight-bold">
                         <Link className="nav-link px-4 text-danger" to="/home">Home</Link>
                         <Link className="nav-link px-4 text-danger" to="/destination">Destination</Link>
-                        <Link className="nav-link px-4 text-danger" to="/home">Blog</Link>
-                        <Link className="nav-link px-4 text-danger" to="/home">Contact</Link>
+                        <Link className="nav-link px-4 text-danger" to="/blog">Blog</Link>
+                        <Link className="nav-link px-4 text-danger" to="/contact">Contact</Link>
                     </div>
                     {
                         loggedInUser.email ?
