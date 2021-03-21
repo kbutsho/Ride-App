@@ -30,8 +30,6 @@ function Login() {
     const location = useLocation();
     const { from } = location.state || { from: { pathname: "/" } };
 
-
-    //( Google sign in ) it;s work on localhost , but after deploy it's not working. it's stuck on white page.please consider it
     const handelGoogleSignIn = () => {
         firebase.auth().signInWithPopup(provider)
             .then(result => {
