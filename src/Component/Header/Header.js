@@ -21,7 +21,7 @@ const Header = () => {
                         <Link className="nav-link px-4 text-danger" to="/home">Contact</Link>
                     </div>
                     {
-                        loggedInUser.email ?
+                        loggedInUser.name ?
                             <div className="d-flex ">
                                 <div> <button className="mx-4 btn btn-danger " onClick={() => setLoggedInUser({})}>Log Out</button></div>
                                 <div className="rounded text-white bg-primary p-2">User: {loggedInUser.name}</div>
