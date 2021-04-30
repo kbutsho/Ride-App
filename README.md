@@ -9,7 +9,12 @@
 
 ### Features
 1. 4 types of ride available
-2. Login with google features
-3. Create new account with email
+2. User can choose any ride
+3. For select any ride user have to login first
+4. Website has Login with google authentication features
+5. User can Create new account with email
+6. Website also has private route.only logged in user can access private pages
 
+
+### Live Link
 ### https://suspicious-keller-579604.netlify.app/
